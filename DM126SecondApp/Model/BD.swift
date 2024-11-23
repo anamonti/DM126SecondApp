@@ -21,18 +21,3 @@ let goalMock: [GoalType] = [
     GoalType(id: 2, icone: "hare.fill", titulo: "Exercicio", descricao: "Correr ou fazer uma caminhada"),
     GoalType(id: 3, icone: "pencil", titulo: "Escrever", descricao: "Escreva 3 coisas pelas quais é grato(a)")
 ]
-
-let usersMock: [User] = [
-    User(nome: "Ana Monti"),
-    User(nome: "Luna Oliveira"),
-    User(nome: "Maria Silva"),
-    User(nome: "Pedro Souza"),
-    User(nome: "Miguel Martins"),
-    User(nome: "Lucas Ribeiro"),
-    User(nome: "Clara Duarte"),
-    User(nome: "Gabriel Monteiro"),
-    User(nome: "Elisa Freitas"),
-    User(nome: "Mariana Nogueira"),
-    User(nome: "Camila Santana"),
-    User(nome: "Thiago Carvalho")
-]
