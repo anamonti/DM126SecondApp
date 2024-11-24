@@ -8,9 +8,11 @@
 import SwiftUI
 
 struct GoalContainer: View {
+    var goals: [GoalType]
+    
     var body: some View {
         VStack(alignment: .leading, spacing: 20){
-            ForEach(goalMock){ goal in
+            ForEach(goals){ goal in
                 GoalListView(goal: goal)
             }
         }
@@ -18,5 +20,5 @@ struct GoalContainer: View {
 }
 
 #Preview {
-    GoalContainer()
+    GoalContainer(goals: goalMock)
 }
